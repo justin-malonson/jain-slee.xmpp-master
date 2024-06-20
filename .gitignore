@@ -1,0 +1,34 @@
+# SLEE
+${release.dir}
+${env.JBOSS_HOME}
+examples/google-talk-bot/docs/sources-restcomm/src/
+examples/google-talk-bot/docs/sources-telscale/src/
+resources/xmpp/docs/sources-restcomm/src/
+resources/xmpp/docs/sources-telscale/src/
+
+# Java compiled #
+#################
+*.class
+
+# IDE #
+###########
+.classpath
+.project
+.settings
+.idea
+*.iml
+
+# Maven #
+#########
+target
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+thumbs.db
+Thumbs.db
